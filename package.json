@@ -18,9 +18,12 @@
     "sequelize": "^6.37.2"
   },
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "vercel": {
     "functions": "{ \"api/**/*.js\" }"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.26"
   }
 }
